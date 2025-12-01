@@ -1,4 +1,4 @@
-import { puzzleLoader } from '../../utils'
+import { puzzleLoader } from '~/utils'
 
 const loadPuzzle = puzzleLoader(import.meta.url)
 
