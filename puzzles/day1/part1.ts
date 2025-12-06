@@ -2,7 +2,7 @@ import { puzzleLoader } from '~/utils'
 
 const loadPuzzle = puzzleLoader(import.meta.url)
 
-const input = await loadPuzzle()
+const input = await loadPuzzle('input.txt')
 const instructions = parseInstructions(input)
 
 let location = 50
